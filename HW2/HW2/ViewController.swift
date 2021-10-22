@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         score -= 1
         label.text = "\(score)"
     }
-
+    ///Сброс
     @IBAction func BOLO(_ sender: Any) {
         score = -1
         label.text = "SCORE"
