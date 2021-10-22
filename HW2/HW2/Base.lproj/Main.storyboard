@@ -15,15 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7p-T2-AYX">
-                                <rect key="frame" x="49" y="388.5" width="316.5" height="119.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" red="0.96968096494674683" green="0.97572368383407593" blue="0.92244714498519897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toK-3p-a76">
-                                <rect key="frame" x="236" y="757" width="160" height="60"/>
+                                <rect key="frame" x="38" y="757" width="160" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="MINUS"/>
@@ -36,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk4-IJ-w1d">
-                                <rect key="frame" x="25" y="757" width="160" height="60"/>
+                                <rect key="frame" x="223" y="757" width="160" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <buttonConfiguration key="configuration" style="filled" title="PLUS">
@@ -60,12 +53,19 @@
                                     <action selector="plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VTr-Wr-h4I"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7p-T2-AYX">
+                                <rect key="frame" x="17.5" y="214" width="379.5" height="143.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="0.96968096494674683" green="0.97572368383407593" blue="0.92244714498519897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.96397480489999998" green="1" blue="0.99621434730000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="V7p-T2-AYX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jly-gV-M0C"/>
-                            <constraint firstItem="V7p-T2-AYX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WK8-Mx-Qjf"/>
+                            <constraint firstItem="V7p-T2-AYX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MM2-o2-cEx"/>
+                            <constraint firstItem="V7p-T2-AYX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="170" id="WdH-WT-s4Z"/>
                         </constraints>
                     </view>
                     <connections>

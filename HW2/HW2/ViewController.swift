@@ -39,7 +39,7 @@ class ViewController: UIViewController {
 
     @IBAction func BOLO(_ sender: Any) {
         score = -1
-        label.text = "\(score)"
+        label.text = "SCORE"
     }
     
 }
