@@ -19,9 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
         dptext = "0"
-        
     }
 
     @IBAction func dbt(_ digitButton: UIButton) {
@@ -37,7 +35,7 @@ class ViewController: UIViewController {
         }
         if dptext.count >= 9 {
             return
-    }
+        }
     dptext += newText
 }
 }
